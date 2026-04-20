@@ -1,0 +1,17 @@
+project_id      = "einzigartige-project-id"
+project_name    = "Anzeigename"
+billing_account = "000000-000000-000000"
+
+# Genau eine der beiden Angaben ist optional sinnvoll:
+# - org_id fuer ein Projekt direkt unterhalb einer Organization
+# - folder_id fuer ein Projekt innerhalb eines bestimmten Folders
+org_id    = null
+folder_id = null
+
+state_bucket_name     = "einzigartiger-state-bucketname"
+state_bucket_location = "EU"
+
+terraform_service_account_id           = "terraform-deployer"
+terraform_service_account_display_name = "Terraform Deployer"
+# E-Mail des menschlichen Benutzers
+terraform_impersonator_member          = "user:name@example.com"

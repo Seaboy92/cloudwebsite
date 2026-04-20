@@ -1,0 +1,11 @@
+# Terraform-Arbeitsverzeichnisse und lokale State-Dateien sollen nicht versioniert werden.
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfplan
+**/crash.log
+
+# Lokale Variablen-Dateien enthalten häufig projekt- oder account-spezifische Werte.
+**/*.auto.tfvars
+**/*.auto.tfvars.json
+**/terraform.tfvars

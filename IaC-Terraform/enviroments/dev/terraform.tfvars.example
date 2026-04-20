@@ -1,0 +1,5 @@
+project_id      = "einzigartige-project-id"
+bucket_name     = "einzigartiger-bucketname"
+bucket_location = "EU"
+name_prefix     = "prefix"
+terraform_service_account_email = "user@example.com"
