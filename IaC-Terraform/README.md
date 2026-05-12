@@ -103,9 +103,7 @@ ausfuehren.
 4. Terraform mit dem Backend-Bucket aus dem Bootstrap initialisieren:
 
    ```powershell
-   terraform init -reconfigure `
-     -backend-config="bucket=<STATE_BUCKET_NAME_AUS_BOOTSTRAP>" `
-     -backend-config="prefix=<BACKEND_PREFIX_AUS_BOOTSTRAP>"
+   terraform init -reconfigure -backend-config="bucket=<STATE_BUCKET_NAME_AUS_BOOTSTRAP>" -backend-config="prefix=<BACKEND_PREFIX_AUS_BOOTSTRAP>"
    ```
 
 5. Terraform prüfen und ausführen:
