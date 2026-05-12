@@ -14,4 +14,4 @@ state_bucket_location = "EU"
 terraform_service_account_id           = "terraform-deployer"
 terraform_service_account_display_name = "Terraform Deployer"
 # E-Mail des menschlichen Benutzers
-terraform_impersonator_member          = "user:name@example.com"
+bootstrap_user_member           = "user:name@example.com"
